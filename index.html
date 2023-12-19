@@ -174,7 +174,7 @@
 
     <!-- -->
     <!-- Content -->
-    <section class="content-section">
+    <section class="content-section mb-4">
       <div class="container">
         <div class="row-content d-flex flex-wrap">
           <!-- Prosedur Pendaftaran -->
@@ -255,7 +255,7 @@
           </div>
 
           <!-- Kegiatan Ekstrakurikuler -->
-          <div class="row justify-content-between align-items-center">
+          <div class="row justify-content-between align-items-center mb-5">
             <div class="col-md-5">
               <!-- Jika ada gambar atau ilustrasi tentang kegiatan ekstrakurikuler, bisa dimasukkan di sini -->
               <img
@@ -286,56 +286,152 @@
     <!-- End Content -->
 
     <!-- Berita Terbaru -->
-    <section class="content-section">
+    <section class="content-section pt-5">
       <div class="container">
-        <!--  -->
+        <h3 class="mb-4 text-center">Berita Terbaru</h3>
+        <div class="d-flex gap-4 justify-content-center content-news">
+          <div class="mb-4">
+            <div class="card news-card">
+              <img
+                style="height: 230px; object-fit: cover"
+                src="./assets/images/ppdb/blog-1.jpg"
+                class="card-img-top"
+                alt="Berita 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-1">Judul Berita 1</h5>
+                <span class="badge bg-primary mb-1">Olahraga</span>
+                <p class="card-text text-sm line-clamp">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dignissimos ad possimus voluptatibus obcaecati! Nemo natus
+                  aliquid repellendus voluptates nisi animi molestiae optio unde
+                  tempora accusamus?
+                </p>
+                <a href="#" class="btn btn-sm btn-outline-success"
+                  >Baca Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <div class="card news-card">
+              <img
+                style="height: 230px; object-fit: cover"
+                src="./assets/images/ppdb/blog-1.jpg"
+                class="card-img-top"
+                alt="Berita 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-1">Judul Berita 2</h5>
+                <span class="badge bg-primary mb-1">Seni dan Budaya</span>
+                <p class="card-text text-sm line-clamp">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Molestiae, beatae dicta debitis necessitatibus deleniti quidem
+                  cupiditate saepe vitae quia voluptas porro dignissimos non
+                  tempora architecto?
+                </p>
+                <a href="#" class="btn btn-sm btn-outline-success"
+                  >Baca Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <div class="card news-card">
+              <img
+                style="height: 230px; object-fit: cover"
+                src="./assets/images/ppdb/blog-1.jpg"
+                class="card-img-top"
+                alt="Berita 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-1">Judul Berita 3</h5>
+                <span class="badge bg-primary mb-1">Ilmiah</span>
+                <p class="card-text text-sm line-clamp">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Earum, temporibus dolores! Dicta atque dolorum vitae sed. Ipsa
+                  esse itaque eveniet nesciunt ab dolore, at impedit.
+                </p>
+                <a href="#" class="btn btn-sm btn-outline-success"
+                  >Baca Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tombol Lihat Semua Berita -->
+        <div class="row justify-content-center">
+          <div class="col-md-4 text-center">
+            <a class="news text-dark" href="#">Lihat Semua Berita</a>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-light py-4">
+    <footer class="bg-dark text-light mt-5 pt-5 pb-4">
       <div class="container">
-        <div class="row">
+        <div class="row flex-nowrap">
           <div class="col-md-4">
-            <h3>Tentang Kami</h3>
+            <h5 class="mb-3">Tentang Kami</h5>
             <p class="text-sm">
               Secana School adalah sekolah unggulan yang menyediakan pendidikan
               berkualitas tinggi. Bergabunglah bersama kami untuk menciptakan
               masa depan yang cerah bagi anak Anda.
             </p>
           </div>
-          <div class="col-md-4">
-            <h3>Link Terkait</h3>
-            <ul class="list-unstyled">
-              <li><a href="#">Beranda</a></li>
-              <li><a href="#">Tentang Kami</a></li>
-              <li><a href="#">Program</a></li>
-              <li><a href="#">Berita</a></li>
-              <li><a href="#">FAQ</a></li>
+          <div class="col-md-2">
+            <h5 class="mb-3">Link Terkait</h5>
+            <ul class="list-unstyled text-sm">
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#">Beranda</a>
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#"
+                  >Tentang Kami</a
+                >
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#">Program</a>
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#">Berita</a>
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#">FAQ</a>
+              </li>
             </ul>
           </div>
-          <div class="col-md-4">
-            <h3>Hubungi Kami</h3>
-            <p>
+          <div class="col-md-3">
+            <h5 class="mb-3">Hubungi Kami</h5>
+            <p class="text-sm">
               Jl. Sekolah Bahagia No. 123, Kota Sekolah, Provinsi XYZ<br />
               Email: info@sekanaschool.com<br />
               Telepon: (021) 1234-5678
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h5 class="mb-3">Kebijakan Privasi</h5>
+            <p class="text-sm">
+              Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan,
+              menggunakan, dan melindungi informasi pribadi Anda.
             </p>
           </div>
         </div>
         <hr class="my-4" />
         <div class="row">
           <div class="col-md-6">
-            <p>
+            <p class="text-sm text-secondary">
               &copy; 2023 Sekana School. Hak Cipta Dilindungi Undang-Undang.
             </p>
           </div>
           <div class="col-md-6 text-end">
             <!-- Tambahkan ikon media sosial atau tautan ke halaman media sosial di sini -->
-            <a href="#" class="text-light me-3"
+            <a href="#" class="text-light me-2"
               ><i class="bi bi-facebook"></i
             ></a>
-            <a href="#" class="text-light me-3"
+            <a href="#" class="text-light me-2"
               ><i class="bi bi-twitter"></i
             ></a>
             <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
@@ -387,7 +483,7 @@
 
         // Fungsi untuk membuat tombol scroll-to-top mengambang saat posisi scroll di bawah
         $(window).scroll(function () {
-          if ($(this).scrollTop() > 300) {
+          if ($(this).scrollTop() > 900) {
             scrollButton.addClass("floating");
           } else {
             scrollButton.removeClass("floating");
