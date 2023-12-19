@@ -20,6 +20,18 @@ body {
   font-family: "Lora", serif;
 }
 
+.text-sm {
+  font-size: 0.8rem;
+}
+
+.text-md {
+  font-size: 1rem;
+}
+
+.text-lg {
+  font-size: 1.2rem;
+}
+
 .overlay {
   position: absolute;
   z-index: 1;
@@ -69,6 +81,33 @@ body {
 
 .btn-intro {
   font-size: 1rem;
+}
+
+.scroll-to-top {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.scroll-to-top.floating {
+  background-color: #dc3545; /* Ganti warna latar belakang saat tombol mengambang */
+  transform: scale(1.1); /* Efek scaling untuk memberikan kesan mengambang */
+}
+
+.row-content {
+  gap: 7rem 0;
 }
 
 /* MEDIA (BREAKPOINT) */
@@ -170,7 +209,7 @@ body {
   }
 
   .content-title {
-    transform: translateY(-35%);
+    transform: translateY(-30%);
   }
 
   .hero-content .intro-year {
