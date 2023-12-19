@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
 }
 
 ::-webkit-scrollbar {
@@ -129,8 +130,21 @@ body {
   text-decoration: none;
 }
 
-/* MEDIA (BREAKPOINT) */
-// Extra small devices (portrait phones, less than 576px)
+.vision-mission-card {
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.vision-mission-card:hover {
+  transform: scale(1.05);
+}
+
+/* MEDIA (BREAKPOINT)
+Extra small devices (portrait phones, less than 576px)
+*/
 @media only screen and (max-width: 576px) {
   /* .hero-content {
     padding: 1rem !important;
